@@ -1,10 +1,7 @@
 # simplecart
-an inventory app
+---
 
-# initial commit
-always make a 1st commit
+### Deacription
+A simple inventory management app for vendors
 
--- create components
-Home / landing page
-Login Page
-Admin dashboard component
+---
