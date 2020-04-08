@@ -1,0 +1,2 @@
+# simplecart
+an inventory app
