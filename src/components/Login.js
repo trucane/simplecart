@@ -17,8 +17,8 @@ function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
       {'Copyright © '}
-      <Link color="inherit" href="https://material-ui.com/">
-        Your Website
+      <Link color="inherit" href="localhost:3000">
+        Simple Cart
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}
@@ -35,11 +35,14 @@ const useStyles = makeStyles((theme) => ({
   },
   avatar: {
     margin: theme.spacing(1),
-    backgroundColor: theme.palette.secondary.main,
+    backgroundColor: 'orange',
   },
   form: {
     width: '100%', // Fix IE 11 issue.
     marginTop: theme.spacing(1),
+  },
+  bg:{
+      backgroundColor:'#fff'
   },
   submit: {
     margin: theme.spacing(3, 0, 2),
@@ -50,7 +53,7 @@ export default function Login() {
   const classes = useStyles();
 
   return (
-    <Container component="main" maxWidth="xs">
+    <Container className={classes.bg} component="main" maxWidth="xs">
       <CssBaseline />
       <div className={classes.paper}>
         <Avatar className={classes.avatar}>
